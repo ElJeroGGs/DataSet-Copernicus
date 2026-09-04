@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Variables de entorno (Seguridad)
+.env
+
+# Directorio de datos y datasets
+dataset/
+
+# Archivos sueltos de imágenes o descargas de prueba
+*.tiff
+*.jpg
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
