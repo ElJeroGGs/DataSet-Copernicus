@@ -1,0 +1,6 @@
+# Escenas descartadas por no incluir la banda SCL (13 bandas esperadas)
+toluca_2026-08-03.tiff
+toluca_2026-08-08.tiff
+toluca_2026-08-13.tiff
+toluca_2026-08-18.tiff
+toluca_2026-08-28.tiff

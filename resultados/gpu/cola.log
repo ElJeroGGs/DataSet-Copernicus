@@ -1,0 +1,177 @@
+### 2026-11-06 02:32:29 inicio: --indice NDVI
+[NDVI_unet_resnet34] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2531  val IoU 0.5968  F1 0.7475  (20s)
+ep  2  loss 0.9432  val IoU 0.6107  F1 0.7583  (19s)
+ep  3  loss 0.7695  val IoU 0.6578  F1 0.7936  (19s)
+ep  4  loss 0.6830  val IoU 0.6736  F1 0.8050  (19s)
+ep  5  loss 0.6742  val IoU 0.6889  F1 0.8158  (19s)
+ep  6  loss 0.6322  val IoU 0.6565  F1 0.7926  (19s)
+ep  7  loss 0.6008  val IoU 0.6928  F1 0.8186  (19s)
+ep  8  loss 0.6070  val IoU 0.7043  F1 0.8265  (19s)
+ep  9  loss 0.5956  val IoU 0.7042  F1 0.8264  (19s)
+ep 10  loss 0.5920  val IoU 0.7109  F1 0.8310  (19s)
+TEST 2023–2026: {'IoU': 0.7451, 'F1': 0.8539, 'precision': 0.8031, 'recall': 0.9116, 'exactitud': 0.9118}
+### 2026-11-06 02:36:10 fin: --indice NDVI (código 0)
+### 2026-11-06 02:36:10 inicio: --indice NDVI --modelo pixel --epocas 5
+[NDVI_pixel] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2137  val IoU 0.6739  F1 0.8052  (6s)
+ep  2  loss 1.1111  val IoU 0.6901  F1 0.8166  (3s)
+ep  3  loss 1.0227  val IoU 0.6891  F1 0.8159  (3s)
+ep  4  loss 0.9648  val IoU 0.6720  F1 0.8038  (3s)
+ep  5  loss 0.9567  val IoU 0.6827  F1 0.8114  (3s)
+parada temprana
+TEST 2023–2026: {'IoU': 0.7251, 'F1': 0.8406, 'precision': 0.7795, 'recall': 0.9122, 'exactitud': 0.9021}
+### 2026-11-06 02:36:46 fin: --indice NDVI --modelo pixel --epocas 5 (código 0)
+### 2026-11-06 02:36:46 inicio: --indice NDRE
+[NDRE_unet_resnet34] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.1688  val IoU 0.6290  F1 0.7722  (20s)
+ep  2  loss 0.8579  val IoU 0.6757  F1 0.8065  (19s)
+ep  3  loss 0.7089  val IoU 0.6970  F1 0.8214  (19s)
+ep  4  loss 0.6295  val IoU 0.7052  F1 0.8272  (19s)
+ep  5  loss 0.6256  val IoU 0.7202  F1 0.8374  (19s)
+ep  6  loss 0.5784  val IoU 0.6927  F1 0.8184  (19s)
+ep  7  loss 0.5539  val IoU 0.7255  F1 0.8409  (19s)
+ep  8  loss 0.5588  val IoU 0.7345  F1 0.8469  (19s)
+ep  9  loss 0.5452  val IoU 0.7332  F1 0.8460  (19s)
+ep 10  loss 0.5465  val IoU 0.7377  F1 0.8491  (19s)
+TEST 2023–2026: {'IoU': 0.763, 'F1': 0.8656, 'precision': 0.8218, 'recall': 0.9143, 'exactitud': 0.9075}
+### 2026-11-06 02:40:24 fin: --indice NDRE (código 0)
+### 2026-11-06 02:40:24 inicio: --indice CIre
+[CIre_unet_resnet34] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.3955  val IoU 0.4652  F1 0.6350  (20s)
+ep  2  loss 1.1017  val IoU 0.5111  F1 0.6764  (19s)
+ep  3  loss 0.9029  val IoU 0.5748  F1 0.7300  (19s)
+ep  4  loss 0.8040  val IoU 0.6186  F1 0.7644  (19s)
+ep  5  loss 0.7829  val IoU 0.6546  F1 0.7912  (19s)
+ep  6  loss 0.7447  val IoU 0.5782  F1 0.7328  (19s)
+ep  7  loss 0.7054  val IoU 0.6556  F1 0.7920  (19s)
+ep  8  loss 0.7111  val IoU 0.6826  F1 0.8114  (19s)
+ep  9  loss 0.6964  val IoU 0.6811  F1 0.8103  (19s)
+ep 10  loss 0.6901  val IoU 0.6880  F1 0.8152  (19s)
+TEST 2023–2026: {'IoU': 0.6936, 'F1': 0.8191, 'precision': 0.744, 'recall': 0.9111, 'exactitud': 0.9183}
+### 2026-11-06 02:44:01 fin: --indice CIre (código 0)
+### 2026-11-06 02:44:01 inicio: --indice EVI
+[EVI_unet_resnet34] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2869  val IoU 0.5289  F1 0.6918  (20s)
+ep  2  loss 1.0022  val IoU 0.5672  F1 0.7238  (19s)
+ep  3  loss 0.8545  val IoU 0.5795  F1 0.7338  (19s)
+ep  4  loss 0.7798  val IoU 0.5954  F1 0.7464  (18s)
+ep  5  loss 0.7747  val IoU 0.6042  F1 0.7533  (19s)
+ep  6  loss 0.7320  val IoU 0.5942  F1 0.7455  (19s)
+ep  7  loss 0.7159  val IoU 0.6109  F1 0.7585  (19s)
+ep  8  loss 0.7010  val IoU 0.6150  F1 0.7616  (19s)
+ep  9  loss 0.7051  val IoU 0.6143  F1 0.7611  (19s)
+ep 10  loss 0.7112  val IoU 0.6173  F1 0.7633  (19s)
+TEST 2023–2026: {'IoU': 0.6627, 'F1': 0.7972, 'precision': 0.7424, 'recall': 0.8606, 'exactitud': 0.8642}
+### 2026-11-06 02:47:36 fin: --indice EVI (código 0)
+### 2026-11-06 02:47:36 inicio: --indice NDMI
+[NDMI_unet_resnet34] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2383  val IoU 0.5728  F1 0.7284  (20s)
+ep  2  loss 0.9433  val IoU 0.6053  F1 0.7542  (19s)
+ep  3  loss 0.8056  val IoU 0.6159  F1 0.7623  (19s)
+ep  4  loss 0.7347  val IoU 0.6305  F1 0.7734  (19s)
+ep  5  loss 0.7320  val IoU 0.6371  F1 0.7783  (19s)
+ep  6  loss 0.6851  val IoU 0.6281  F1 0.7716  (19s)
+ep  7  loss 0.6628  val IoU 0.6440  F1 0.7834  (19s)
+ep  8  loss 0.6703  val IoU 0.6530  F1 0.7901  (19s)
+ep  9  loss 0.6550  val IoU 0.6527  F1 0.7898  (19s)
+ep 10  loss 0.6653  val IoU 0.6561  F1 0.7923  (19s)
+TEST 2023–2026: {'IoU': 0.6965, 'F1': 0.8211, 'precision': 0.7793, 'recall': 0.8676, 'exactitud': 0.8788}
+### 2026-11-06 02:51:14 fin: --indice NDMI (código 0)
+### 2026-11-06 02:51:14 inicio: --indice NDVI --sin_preentreno
+[NDVI_unet_resnet34_sin_preentreno] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.1777  val IoU 0.4938  F1 0.6611  (20s)
+ep  2  loss 0.9259  val IoU 0.6379  F1 0.7789  (19s)
+ep  3  loss 0.7806  val IoU 0.6817  F1 0.8107  (19s)
+ep  4  loss 0.6979  val IoU 0.5797  F1 0.7339  (19s)
+ep  5  loss 0.6913  val IoU 0.6825  F1 0.8113  (19s)
+ep  6  loss 0.6495  val IoU 0.6841  F1 0.8124  (19s)
+ep  7  loss 0.6179  val IoU 0.7069  F1 0.8283  (19s)
+ep  8  loss 0.6263  val IoU 0.7097  F1 0.8302  (19s)
+ep  9  loss 0.6128  val IoU 0.7007  F1 0.8240  (19s)
+ep 10  loss 0.6110  val IoU 0.7149  F1 0.8337  (19s)
+TEST 2023–2026: {'IoU': 0.7519, 'F1': 0.8584, 'precision': 0.8403, 'recall': 0.8773, 'exactitud': 0.9181}
+### 2026-11-06 02:54:48 fin: --indice NDVI --sin_preentreno (código 0)
+### 2026-11-06 02:54:48 inicio: --indice NDVI --encoder efficientnet-b0
+[NDVI_unet_efficientnet-b0] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2046  val IoU 0.5777  F1 0.7324  (56s)
+ep  2  loss 0.9155  val IoU 0.6535  F1 0.7905  (25s)
+ep  3  loss 0.7479  val IoU 0.6780  F1 0.8081  (25s)
+ep  4  loss 0.6560  val IoU 0.6889  F1 0.8158  (25s)
+ep  5  loss 0.6468  val IoU 0.7007  F1 0.8240  (25s)
+ep  6  loss 0.6067  val IoU 0.6998  F1 0.8234  (25s)
+ep  7  loss 0.5775  val IoU 0.7050  F1 0.8270  (25s)
+ep  8  loss 0.5856  val IoU 0.7092  F1 0.8299  (25s)
+ep  9  loss 0.5761  val IoU 0.7096  F1 0.8301  (25s)
+ep 10  loss 0.5711  val IoU 0.7103  F1 0.8306  (25s)
+TEST 2023–2026: {'IoU': 0.7436, 'F1': 0.8529, 'precision': 0.8087, 'recall': 0.9023, 'exactitud': 0.912}
+### 2026-11-06 03:00:03 fin: --indice NDVI --encoder efficientnet-b0 (código 0)
+### 2026-11-06 03:00:03 inicio: --indice NDRE --encoder efficientnet-b0
+[NDRE_unet_efficientnet-b0] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.1271  val IoU 0.6280  F1 0.7715  (26s)
+ep  2  loss 0.8380  val IoU 0.6911  F1 0.8174  (25s)
+ep  3  loss 0.6889  val IoU 0.7066  F1 0.8281  (25s)
+ep  4  loss 0.6059  val IoU 0.7187  F1 0.8363  (25s)
+ep  5  loss 0.6012  val IoU 0.7299  F1 0.8438  (25s)
+ep  6  loss 0.5572  val IoU 0.7285  F1 0.8429  (25s)
+ep  7  loss 0.5342  val IoU 0.7336  F1 0.8464  (25s)
+ep  8  loss 0.5407  val IoU 0.7366  F1 0.8483  (25s)
+ep  9  loss 0.5307  val IoU 0.7367  F1 0.8484  (25s)
+ep 10  loss 0.5295  val IoU 0.7373  F1 0.8488  (25s)
+TEST 2023–2026: {'IoU': 0.7625, 'F1': 0.8653, 'precision': 0.8306, 'recall': 0.903, 'exactitud': 0.9084}
+### 2026-11-06 03:04:48 fin: --indice NDRE --encoder efficientnet-b0 (código 0)
+### 2026-11-06 03:04:48 inicio: --indice CIre --encoder efficientnet-b0
+[CIre_unet_efficientnet-b0] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.3549  val IoU 0.5027  F1 0.6690  (26s)
+ep  2  loss 1.0455  val IoU 0.6191  F1 0.7648  (25s)
+ep  3  loss 0.8606  val IoU 0.6563  F1 0.7925  (25s)
+ep  4  loss 0.7584  val IoU 0.6724  F1 0.8041  (25s)
+ep  5  loss 0.7350  val IoU 0.6833  F1 0.8118  (25s)
+ep  6  loss 0.6916  val IoU 0.6824  F1 0.8112  (25s)
+ep  7  loss 0.6476  val IoU 0.6855  F1 0.8134  (25s)
+ep  8  loss 0.6535  val IoU 0.6890  F1 0.8159  (25s)
+ep  9  loss 0.6388  val IoU 0.6894  F1 0.8161  (25s)
+ep 10  loss 0.6299  val IoU 0.6876  F1 0.8149  (25s)
+TEST 2023–2026: {'IoU': 0.6953, 'F1': 0.8203, 'precision': 0.7611, 'recall': 0.8895, 'exactitud': 0.9208}
+### 2026-11-06 03:09:30 fin: --indice CIre --encoder efficientnet-b0 (código 0)
+### 2026-11-06 03:09:30 inicio: --indice EVI --encoder efficientnet-b0
+[EVI_unet_efficientnet-b0] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2272  val IoU 0.5512  F1 0.7107  (26s)
+ep  2  loss 0.9592  val IoU 0.5757  F1 0.7308  (25s)
+ep  3  loss 0.8364  val IoU 0.5900  F1 0.7421  (25s)
+ep  4  loss 0.7606  val IoU 0.5965  F1 0.7473  (25s)
+ep  5  loss 0.7539  val IoU 0.6080  F1 0.7563  (25s)
+ep  6  loss 0.7083  val IoU 0.6127  F1 0.7598  (25s)
+ep  7  loss 0.6946  val IoU 0.6184  F1 0.7642  (25s)
+ep  8  loss 0.6818  val IoU 0.6195  F1 0.7651  (25s)
+ep  9  loss 0.6851  val IoU 0.6202  F1 0.7656  (25s)
+ep 10  loss 0.6920  val IoU 0.6201  F1 0.7655  (25s)
+TEST 2023–2026: {'IoU': 0.6653, 'F1': 0.799, 'precision': 0.7573, 'recall': 0.8456, 'exactitud': 0.8681}
+### 2026-11-06 03:14:15 fin: --indice EVI --encoder efficientnet-b0 (código 0)
+### 2026-11-06 03:14:15 inicio: --indice NDMI --encoder efficientnet-b0
+[NDMI_unet_efficientnet-b0] dispositivo=cuda, hilos=6
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.1787  val IoU 0.5983  F1 0.7487  (26s)
+ep  2  loss 0.9076  val IoU 0.6146  F1 0.7613  (26s)
+ep  3  loss 0.7897  val IoU 0.6302  F1 0.7732  (26s)
+ep  4  loss 0.7138  val IoU 0.6396  F1 0.7802  (25s)
+ep  5  loss 0.7104  val IoU 0.6474  F1 0.7860  (25s)
+ep  6  loss 0.6651  val IoU 0.6522  F1 0.7895  (25s)
+ep  7  loss 0.6457  val IoU 0.6566  F1 0.7927  (25s)
+ep  8  loss 0.6532  val IoU 0.6574  F1 0.7933  (25s)
+ep  9  loss 0.6397  val IoU 0.6565  F1 0.7926  (25s)
+ep 10  loss 0.6504  val IoU 0.6564  F1 0.7925  (25s)
+TEST 2023–2026: {'IoU': 0.6963, 'F1': 0.821, 'precision': 0.7844, 'recall': 0.8611, 'exactitud': 0.8796}
+### 2026-11-06 03:19:01 fin: --indice NDMI --encoder efficientnet-b0 (código 0)
+### COLA TERMINADA 2026-11-06 03:19:01

@@ -1,0 +1,52 @@
+[NDVI_unet_resnet34] dispositivo=cpu, hilos=8
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2528  val IoU 0.5990  F1 0.7492  (224s)
+ep  2  loss 0.9437  val IoU 0.6183  F1 0.7641  (224s)
+ep  3  loss 0.7696  val IoU 0.6570  F1 0.7930  (225s)
+ep  4  loss 0.6821  val IoU 0.6699  F1 0.8023  (224s)
+ep  5  loss 0.6737  val IoU 0.6848  F1 0.8129  (224s)
+ep  6  loss 0.6318  val IoU 0.6469  F1 0.7856  (232s)
+ep  7  loss 0.6001  val IoU 0.6894  F1 0.8161  (206s)
+ep  8  loss 0.6074  val IoU 0.7024  F1 0.8252  (213s)
+ep  9  loss 0.5957  val IoU 0.7014  F1 0.8245  (211s)
+ep 10  loss 0.5921  val IoU 0.7087  F1 0.8295  (210s)
+TEST 2023–2026: {'IoU': 0.7435, 'F1': 0.8529, 'precision': 0.7981, 'recall': 0.9159, 'exactitud': 0.9106}
+[NDVI_pixel] dispositivo=cpu, hilos=8
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2137  val IoU 0.6739  F1 0.8052  (5s)
+ep  2  loss 1.1111  val IoU 0.6901  F1 0.8166  (5s)
+ep  3  loss 1.0227  val IoU 0.6891  F1 0.8159  (5s)
+ep  4  loss 0.9648  val IoU 0.6720  F1 0.8038  (5s)
+ep  5  loss 0.9567  val IoU 0.6827  F1 0.8114  (5s)
+parada temprana
+TEST 2023–2026: {'IoU': 0.7251, 'F1': 0.8406, 'precision': 0.7795, 'recall': 0.9122, 'exactitud': 0.9021}
+[NDRE_unet_resnet34] dispositivo=cpu, hilos=8
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.1678  val IoU 0.6166  F1 0.7628  (221s)
+ep  2  loss 0.8533  val IoU 0.6738  F1 0.8051  (213s)
+ep  3  loss 0.7070  val IoU 0.7014  F1 0.8245  (217s)
+ep  4  loss 0.6289  val IoU 0.7016  F1 0.8246  (212s)
+ep  5  loss 0.6247  val IoU 0.7227  F1 0.8390  (215s)
+ep  6  loss 0.5801  val IoU 0.6919  F1 0.8179  (260s)
+ep  7  loss 0.5555  val IoU 0.7297  F1 0.8437  (214s)
+ep  8  loss 0.5603  val IoU 0.7338  F1 0.8465  (215s)
+ep  9  loss 0.5474  val IoU 0.7358  F1 0.8478  (216s)
+ep 10  loss 0.5478  val IoU 0.7378  F1 0.8491  (216s)
+TEST 2023–2026: {'IoU': 0.7636, 'F1': 0.866, 'precision': 0.8232, 'recall': 0.9134, 'exactitud': 0.9079}
+[CIre_unet_resnet34] dispositivo=cpu, hilos=8
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.3944  val IoU 0.4737  F1 0.6429  (215s)
+ep  2  loss 1.0958  val IoU 0.5057  F1 0.6717  (213s)
+ep  3  loss 0.9043  val IoU 0.5549  F1 0.7137  (209s)
+ep  4  loss 0.8085  val IoU 0.6045  F1 0.7535  (245s)
+ep  5  loss 0.7905  val IoU 0.6379  F1 0.7789  (242s)
+ep  6  loss 0.7470  val IoU 0.5887  F1 0.7411  (219s)
+ep  7  loss 0.7065  val IoU 0.6408  F1 0.7811  (210s)
+ep  8  loss 0.7146  val IoU 0.6682  F1 0.8011  (210s)
+ep  9  loss 0.6992  val IoU 0.6676  F1 0.8006  (210s)
+ep 10  loss 0.6931  val IoU 0.6754  F1 0.8063  (209s)
+TEST 2023–2026: {'IoU': 0.6819, 'F1': 0.8109, 'precision': 0.7253, 'recall': 0.9193, 'exactitud': 0.9129}
+[EVI_unet_resnet34] dispositivo=cpu, hilos=8
+{'train': 146, 'val': 28, 'test': 134}
+ep  1  loss 1.2878  val IoU 0.5282  F1 0.6913  (242s)
+ep  2  loss 1.0037  val IoU 0.5657  F1 0.7226  (210s)

@@ -1,0 +1,15 @@
+# Override de uv para instalar PyTorch-ROCm solo con los kernels de la arquitectura gfx1030 (RDNA2).
+# torch 2.15.0+rocm7.14 pide rocm[device-all,libraries] (las 26 arquitecturas AMD, ~18 GB);
+# con este override el entorno ocupa ~7.2 GB.
+#
+# Comandos ejecutados para el entorno de la GPU (Nobara Linux 44, kernel 7.2.6, Python 3.13.13):
+#   uv venv -p /usr/bin/python3.13 venv
+#   uv pip install -p venv/bin/python --overrides overrides-rocm.txt torch torchvision \
+#       --index-url https://download.pytorch.org/whl/rocm7.14
+#   uv pip install -p venv/bin/python --overrides overrides-rocm.txt segmentation-models-pytorch pandas scipy matplotlib
+# Versiones resultantes: torch 2.15.0+rocm7.14, torchvision 0.29.2+rocm7.14, triton-rocm 3.9.0,
+#   segmentation-models-pytorch 0.6.0, timm 1.0.31, numpy 2.5.4, pandas 3.1.1, scipy 1.18.1.
+#
+# En GPUs RDNA2 sin soporte oficial (p. ej. RX 6600 = gfx1032) hay que exportar HSA_OVERRIDE_GFX_VERSION=10.3.0
+# (correr_experimentos.sh lo hace con ROCM_GFX1030=1). Sin él, ROCm falla con hipErrorInvalidImage.
+rocm[device-gfx1030,libraries]==7.14.1

@@ -7,7 +7,7 @@ env/
 .env
 
 # Directorio de datos y datasets
-dataset/
+/dataset/
 
 # Archivos sueltos de imágenes o descargas de prueba
 *.tiff
@@ -17,3 +17,33 @@ dataset/
 # Python
 __pycache__/
 *.py[cod]
+
+# Datos derivados (máscaras, parches, modelos)
+/datos/
+/modelos/
+dataset_sin_scl/
+modelos_cpu/
+modelos_gpu/
+
+# Documentos del artículo, reportes y notas internas (repositorio público: no se versionan)
+*.docx
+*.pdf
+salidas.zip
+INCOHERENCIAS_ARTICULO.md
+# Catálogos de una corrida de descarga distinta a la usada (la lista válida está en resultados/datos/)
+catalogo_stac.csv
+imagenes_por_anio.csv
+_verif/
+
+# Salidas: solo se versionan las figuras finales de las máscaras y su tabla
+salidas/*
+!salidas/mascaras/
+salidas/mascaras/*
+!salidas/mascaras/figM1_*.png
+!salidas/mascaras/figM2_*.png
+!salidas/mascaras/figM3_*.png
+!salidas/mascaras/figM4_predicciones_*_unet_resnet34_gpu.png
+!salidas/mascaras/figM5_metricas_gpu.png
+!salidas/mascaras/figM6_encoders_gpu.png
+!salidas/mascaras/figM7_ablacion_preentreno_gpu.png
+!salidas/mascaras/metricas_modelos_gpu*.csv

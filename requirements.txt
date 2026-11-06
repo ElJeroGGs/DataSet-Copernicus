@@ -1,2 +1,20 @@
+# Versiones exactas usadas (Python 3.13.13). PyTorch se instala aparte según el hardware (ver README):
+#   CPU : pip install torch==2.15.0 torchvision==0.29.2 --index-url https://download.pytorch.org/whl/cpu
+#   ROCm: ver entorno/overrides-rocm.txt
+# Descarga de datos
 requests==2.32.3
 python-dotenv==1.0.1
+# Procesamiento y análisis
+numpy==2.5.2
+pandas==3.0.6
+scipy==1.18.1
+rasterio==1.5.1
+matplotlib==3.11.1
+pillow==12.3.0
+# Modelos
+torch==2.15.0
+torchvision==0.29.2
+segmentation_models_pytorch==0.6.0
+timm==1.0.31
+safetensors==0.8.0
+huggingface_hub==2.4.0
